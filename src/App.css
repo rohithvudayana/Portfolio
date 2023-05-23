@@ -1,0 +1,94 @@
+z.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    /* background: url('https://www.3dsystems.com/cdn-cgi/image/w=640,q=75,f=auto/sites/default/files/2022-02/3d-systems-blog-banner-option_0.jpg'); */
+    background-color: 	  #99ffe6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    /* padding:70px 30px 70px 30px; */
+    margin:0px auto;
+    background-image: url('https://media.istockphoto.com/vectors/trendy-low-poly-triangles-with-navy-bg-vector-id1140409137?k=20&m=1140409137&s=612x612&w=0&h=boIFFEcYZHdNXew1_4cTD0AGzHw6ecaGARe_hzTJFhg=') ;
+    color:floralwhite;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background-color: 	 #4d94ff;
+}
+.bg{
+
+    background-position: center;
+    background-size: cover;
+}
+.center {
+    /* display: block;*/
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: auto;
+    width: 39%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 45%;
+  }    
+.bars{
+        width: 95%;
+        float: left;
+        text-align: left;
+        padding: 0px;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+h4{
+    text-decoration-color: #3399ff;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    color: #ff1a75
+}    
+.rohith{
+    width: 100%;
+    height:90%;
+}
+.overlay{
+    position: absolute; 
+  bottom: 50; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #7f1616; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: rgb(163, 20, 20);
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.rohith:hover .overlay{
+    opacity: 52;
+}
